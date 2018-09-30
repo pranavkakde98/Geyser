@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Geyser4">
+
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which Service do you want for your Geyser?"
+        android:layout_centerHorizontal="true"
+        tools:layout_marginTop="50dp"
+        android:textSize="19sp"
+        android:paddingBottom="50dp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/q2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/q1"
+        android:text="Repair Rs249"/>
+
+
+    <RadioButton
+        android:id="@+id/q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/q2"
+        android:text="Installation/Uninstallation Rs400"/>
+
+</RelativeLayout>

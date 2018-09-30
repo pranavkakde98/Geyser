@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Geyser2">
+
+    <TextView
+        android:id="@+id/y1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Which type of Geyser do you have?"
+        android:layout_centerHorizontal="true"
+        tools:layout_marginTop="50dp"
+        android:textSize="19sp"
+        android:paddingBottom="50dp"
+        android:textStyle="bold" />
+
+    <RadioButton
+        android:id="@+id/y2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+
+        android:layout_below="@+id/y1"
+        android:text="Electric Geyser"/>
+
+    <TextView
+        android:id="@+id/y3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y2"
+        tools:layout_marginTop="0dp"
+        android:text="Free inspection "
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp" />
+    <TextView
+        android:id="@+id/y4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y3"
+        tools:layout_marginTop="0dp"
+        android:text="Pay if you take service as per rate card shared next "
+        android:textStyle="italic"
+        android:paddingBottom="50dp"
+        android:layout_marginLeft="50dp" />
+
+    <RadioButton
+        android:id="@+id/y5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/y4"
+        android:text="Other Geyser"/>
+
+    <TextView
+        android:id="@+id/y6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/y5"
+        tools:layout_marginTop="0dp"
+        android:text="Free inspection                                                                            Pay if you take service as per rate card shared next "
+        android:textStyle="italic"
+        android:layout_marginLeft="50dp" />
+
+</RelativeLayout>

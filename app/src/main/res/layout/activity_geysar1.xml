@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Geysar1">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/plumber"/>
+
+    <ImageView
+        android:id="@+id/i1"
+        android:layout_width="66dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/edoor"
+        android:layout_marginLeft="0dp"
+        android:paddingBottom="30dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/worker" />
+
+    <ImageView
+        android:id="@+id/i2"
+        android:layout_width="65dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/a2"
+        android:layout_marginLeft="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/rupee" />
+
+    <ImageView
+        android:id="@+id/i3"
+        android:layout_width="65dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/a4"
+        android:layout_marginLeft="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/customerprotection" />
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageview"
+        android:layout_centerHorizontal="true"
+        android:text="Geyser Repair"
+
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_marginTop="0dp" />
+
+
+    <TextView
+        android:id="@+id/edoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:text="eDoor Guarantee:"
+        android:textStyle="bold"
+
+        android:textSize="17sp"
+        tools:layout_marginTop="0dp"
+        android:paddingBottom="30dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edoor"
+
+        android:text="Skilled and Verifies Geyser Mechanics"
+        android:textStyle="bold"
+        android:textSize="17sp"
+
+        android:layout_marginLeft="70dp"/>
+
+
+    <TextView
+        android:id="@+id/a2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a1"
+        android:text="Every_Mlumber is skill checked background verified and continously evaluated"
+        tools:layout_marginTop="0dp"
+        android:paddingBottom="35dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
+
+    <TextView
+        android:id="@+id/a3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a2"
+        android:text="Transparent and fixed pricing"
+        android:textStyle="bold"
+        android:textSize="17sp"
+
+        android:layout_marginLeft="70dp"
+        android:layout_marginStart="70dp" />
+
+    <TextView
+        android:id="@+id/a4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a3"
+        android:text="Fixed hourly rates for all your service needs"
+        tools:layout_marginTop="0dp"
+        android:paddingBottom="35dp"
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/a5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a4"
+        android:text="Customer Protection"
+        android:textStyle="bold"
+        android:textSize="17sp"
+
+
+        android:layout_marginLeft="70dp"/>
+
+    <TextView
+        android:id="@+id/a6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a5"
+        android:text="30 days service gurantee"
+        tools:layout_marginTop="0dp"
+        android:layout_marginLeft="70dp"/>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:text="Schedule your Service" />
+
+</RelativeLayout>
